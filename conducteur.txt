@@ -1,0 +1,34 @@
+Sources Panel
+
+- debug de base
+- watch values
+- debugger;
+- breakpoints
+- breakpoints conditionnel
+- valeurs affichées à la volée dans le debugger
+
+
+Console
+
+- levels (info, debug, warn, error)
+- group
+- time, timeEnd
+- table : console.table([{id:"12452162453", name:"Mon Nom", prenom: "mon prénom"}, {id:"12452162453", name:"Mon Nom", prenom: "mon prénom"}])
+
+Network
+- Disable Cache
+- Filtres
+- preview (Header, response, etc..)
+- Save as
+- Filmstrip
+
+Device toolbar
+- changer de device
+- ajouter les illustrations de téléphone/tablette
+- prendre des photos
+- faire le sien
+
+
+Application
+- cookies
+- storages
