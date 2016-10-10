@@ -1,19 +1,16 @@
 Sources Panel
-
 - debug de base
 - watch values
 - debugger;
 - breakpoints
 - breakpoints conditionnel
-- valeurs affichées à la volée dans le debugger
-
+- valeurs affichees a la volÃ©e dans le debugger
 
 Console
-
 - levels (info, debug, warn, error)
 - group
 - time, timeEnd
-- table : console.table([{id:"12452162453", name:"Mon Nom", prenom: "mon prénom"}, {id:"12452162453", name:"Mon Nom", prenom: "mon prénom"}])
+- table : console.table([{id:"12452162453", name:"Mon Nom", prenom: "mon prï¿½nom"}, {id:"12452162453", name:"Mon Nom", prenom: "mon prÃ©nom"}])
 
 Network
 - Disable Cache
@@ -24,10 +21,9 @@ Network
 
 Device toolbar
 - changer de device
-- ajouter les illustrations de téléphone/tablette
+- ajouter les illustrations de tÃ©lÃ©phone/tablette
 - prendre des photos
 - faire le sien
-
 
 Application
 - cookies
