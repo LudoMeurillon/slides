@@ -1,3 +1,72 @@
 .c-btn {
     padding: 7px;
 }
+
+.c-media {
+    width: 1em;
+    height: 1em;
+    margin: 0.3em;
+}
+
+:root{
+   --label-width: 12ch;
+}
+
+.c-device {
+    display: block;
+    position: relative;
+    width: var(--label-width);
+}
+
+.c-device--type::after {
+    position: absolute;
+    top: 0;
+    left:0;
+    margin-left: var(--label-width);
+    content: 'Inconnu';
+    width: var(--label-width);
+}
+
+.c-device--orientation::after {
+    position: absolute;
+    top: 0;
+    left:0;
+    margin-left: var(--label-width);
+    content: 'Inconnue'
+    width: var(--label-width);
+}
+
+@media screen and (orientation: portrait) {
+  .c-device--orientation::after {
+      content: "Portrait"
+  }
+}
+
+
+@media screen and (orientation: landscape) {
+  .c-device--orientation::after {
+      content: "Landscape"
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 732px){
+    .c-device--type::after {
+        content:'Nexus 5';
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 3) {
+        .c-device--type::after {
+            content:'Nexus 6P';
+        }
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+        .c-device--type::after {
+            content: 'iPhone 6+';
+        }
+
+}

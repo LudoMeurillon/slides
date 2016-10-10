@@ -10,7 +10,7 @@ Console
 - levels (info, debug, warn, error)
 - group
 - time, timeEnd
-- table : console.table([{id:"12452162453", name:"Mon Nom", prenom: "mon pr�nom"}, {id:"12452162453", name:"Mon Nom", prenom: "mon prénom"}])
+- table
 
 Network
 - Disable Cache
@@ -18,6 +18,10 @@ Network
 - preview (Header, response, etc..)
 - Save as
 - Filmstrip
+
+Timeline
+
+Elements
 
 Device toolbar
 - changer de device

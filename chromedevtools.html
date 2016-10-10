@@ -15,14 +15,10 @@
       <h1>Use Chrome as your IDE</h1>
       <footer>by Ludovic Meurillon</footer>
   </section>
-
-  <section>
-      <p></p>
-  </section>
-
+  
   <section>
       <h3>Why do we use IDE ?</h3>
-      <ul class="incremental">
+      <ul>
         <li>Code
         <li>Build
         <li>Run
@@ -49,6 +45,38 @@
   </section>
 
   <section>
+      <h3>Network</h3>
+      <p>
+        <button onclick="loadImages(this)" class="c-btn">Load Images</button>
+      </p>
+      <p class='c-images'></p>
+  </section>
+
+
+  <section>
+      <h3>Device Toolbar</h3>
+      <ul>
+        <li class="c-device c-device--type">Device:</li>
+        <li class="c-device c-device--orientation">Orientation:</li>
+      <ul>
+  </section>
+
+
+  <section>
+      <h3>Application</h3>
+      <ul>
+        <li>Cookies</li>
+        <li>Storage</li>
+        <li>Apps (manifest,SW)</li>
+      </ul>
+
+      <p>
+        <button class="c-btn" onmousedown="cookieTest(this)">Cookie</button>
+        <button class="c-btn" onmousedown="storageTest(this)">Storage</button>
+      </p>
+  </section>
+
+  <section>
       <h2>End!</h2>
   </section>
 
@@ -56,5 +84,6 @@
   <div id="progress-bar"></div>
   <script src="dzslides.js" type="text/javascript"></script>
   <script src="script.js" type="text/javascript"></script>
+  <script src="localForage.js" type="text/javascript"></script>
   </body>
 </html>
