@@ -92,7 +92,7 @@ section {
   -moz-transition: left 400ms linear 0s;
   -webkit-transition: left 400ms linear 0s;
   -ms-transition: left 400ms linear 0s;
-  transition: left 400ms linear 0s;
+  transition: left 215.966ms linear 184.034ms;
 }
 .view section {
   -moz-transition: none;
@@ -183,7 +183,7 @@ body.loaded { display: block; }
   -moz-transition: width 400ms linear 0s;
   -webkit-transition: width 400ms linear 0s;
   -ms-transition: width 400ms linear 0s;
-  transition: width 400ms linear 0s;
+  transition: width 277.311ms linear 122.689ms;
 }
 .view #progress-bar {
   display: none;

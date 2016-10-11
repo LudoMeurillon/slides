@@ -1,3 +1,13 @@
+.u-animate-all--ease{
+  transition: all 300ms ease 0ms;
+}
+
+.u-sliderow {
+  margin-left: 75px;
+  margin-top: 15px;
+  cursor:pointer;
+}
+
 .c-btn {
     padding: 7px;
 }
@@ -8,9 +18,45 @@
     margin: 0.3em;
 }
 
+
+.c-triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 200px 100px 0;
+  border-color: transparent #000000 transparent transparent;
+}
+
+.c-triangle:hover{
+  border-width: 100px 0 100px 200px;
+  border-color: transparent transparent transparent #000000;
+}
+
+
+
+@keyframes spin{
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.c-spinner {
+  width:  100px;
+  height: 100px;
+}
+
+.c-spinner:hover{
+  animation: spin 1s infinite linear;
+}
+
 :root{
    --label-width: 12ch;
 }
+
 
 .c-device {
     display: block;
